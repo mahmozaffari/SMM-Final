@@ -15,8 +15,6 @@ import time
 from collections import defaultdict
 from datetime import datetime, timedelta
 from email.utils import parsedate_tz
-from pynput import keyboard
-import signal
 
 
 def to_datetime(datestring):

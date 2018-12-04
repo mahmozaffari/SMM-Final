@@ -79,7 +79,7 @@ def follow_users(users_file, creds,duration):
 	file_num = 1
 
 
-	MAX_TWEETS = 100000
+	MAX_TWEETS = 100
 	response = client.get(url, stream=True, params=params)
 	if response.ok:
 		f = open("tweets.json", "wb")
